@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+}
+
+.app {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    color: #333;
+    margin: 0;
+}
+
+.connect-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+    .connect-button:hover {
+        background-color: #45a049;
+    }
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.airdrop-container {
+    text-align: center;
+}
+
+.sign-button {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+    .sign-button:hover {
+        background-color: #007B9A;
+    }
+
+.status-message {
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+}
+
+.connect-message {
+    font-size: 18px;
+    color: #666;
+}
